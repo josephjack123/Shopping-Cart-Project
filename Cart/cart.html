@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cards Grid</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+
+  <!-- Container -->
+  <div class="flex min-h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white p-4 border-r">
+      <h1 class="text-lg font-semibold mb-4">SIZES:</h1>
+      <div class="grid grid-cols-4 gap-2 mb-6">
+        <button class="rounded-full h-10 w-10 bg-gray-100 hover:bg-gray-200 text-sm">XS</button>
+        <button class="rounded-full h-10 w-10 bg-gray-100 hover:bg-gray-200 text-sm">S</button>
+        <button class="rounded-full h-10 w-10 bg-gray-100 hover:bg-gray-200 text-sm">M</button>
+        <button class="rounded-full h-10 w-10 bg-gray-100 hover:bg-gray-200 text-sm">ML</button>
+        <button class="rounded-full h-10 w-10 bg-gray-100 hover:bg-gray-200 text-sm">L</button>
+        <button class="rounded-full h-10 w-10 bg-gray-100 hover:bg-gray-200 text-sm">XL</button>
+        <button class="rounded-full h-10 w-10 bg-gray-100 hover:bg-gray-200 text-sm">XXL</button>
+      </div>
+      <div class="text-sm text-gray-500 mb-4">Leave a star on GitHub if this repo was useful.</div>
+      <div class="flex items-center space-x-2">
+        <button class="flex items-center border px-4 py-1 rounded bg-white hover:bg-gray-100 text-sm">
+          ⭐ Star
+        </button>
+        <span class="border px-3 py-1 rounded-r bg-white text-sm">848</span>
+      </div>
+    </aside>
+
+    <!-- Product section -->
+    <main class="flex-1 p-6">
+      <div class="flex justify-between items-center mb-6">
+        <p class="text-black">16 products found</p>
+        <form>
+          <label class="mr-2 text-black">Order By:</label>
+          <select class="border-2 p-1">
+            <option>select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </form>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="grid grid-cols-4 gap-6">
+        <!-- Row 1 -->
+        <!-- Card 1 -->
+        <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+        <!-- Card 2 -->
+        <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+        <!-- Card 3 -->
+        <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+        <!-- Card 4 -->
+       <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+
+        <!-- Row 2 -->
+        <!-- Card 1 -->
+        <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+        <!-- Card 2 -->
+        <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+        <!-- Card 3 -->
+       <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+          </div>
+          <!-- Card 4 -->
+        <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+
+        <!-- Row 3 -->
+        <!-- Card 1 -->
+        <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+        <!-- Card 2 -->
+       <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+         <!-- Card 3 -->
+        <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+        <!-- Card 4 -->
+       <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+
+        <!-- Row 4 -->
+        <!-- Card 1 -->
+        <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+        <!-- Card 2 -->
+        <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+        <!-- Card 3 -->
+        <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+        <!-- Card 4 -->
+        <div class="relative bg-white rounded-lg shadow p-4 hover:shadow-lg transition">
+          <div class="absolute top-2 right-2 bg-black text-white text-xs font-semibold px-2 py-1 rounded">Free shipping</div>
+          <img src="./images/shirt.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-sm font-medium mb-1 text-center">Cat Tee Black T-shirt</h3>
+          <div class="mb-4">
+            <div class="text-center">
+                <span class="text-lg font-bold">$10.90</span>
+            </div>
+            <span class="block text-xs text-gray-500 text-center">or 9 x $1.21</span>
+          </div>
+          <button class="w-full bg-black text-white text-sm py-2 rounded hover:bg-gray-800 transition">Add to cart</button>
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+</body>
+</html>
